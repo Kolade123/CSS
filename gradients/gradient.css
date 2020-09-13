@@ -1,3 +1,5 @@
 .gradient1{
-    background-image: radial-gradient(cicle,red 25%,blue 45%,green 65%,yellow 95%);
+    background-image: radial-gradient(red 25%,blue 45%,green 65%,yellow 95%);
+    height: 260px;
+    width: 260px;
 }
