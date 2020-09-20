@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    .rotate{
+        height: 5em;
+        width: 5em;
+        background-color:red;
+        transition: all 2s ease-in-out;
+        margin-left: 500px;
+        margin-top : 300px;
+        animation: rotate 1s ease infinite;
+      }
+    @keyframes rotate{
+       from{transform: rotate(0deg);}
+       to{transform: rotate(180deg);}
+    }
+</style>
+</head>
+<body class="body">
+    <div class="rotate"></div>
+</body>
+</html>
